@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Test cases Regression Suite">
+	<parameter name="browser" value="chrome" />
+	<test name="Regression suite for test cases" preserve-order="true">
+		<classes>
+
+			<class name="MTests.MyAccountTest" />
+			<class name="MTests.CategoryTest" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
